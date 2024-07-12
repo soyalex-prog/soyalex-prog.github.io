@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+.seccion-experiencia {
+  background-color: aqua;
+}
+
+.titulo-1 {
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  margin-top: 20px; /* Espacio superior */
+  margin-bottom: 20px; /* Espacio inferior */
+  font-size: 25px; /* Tamaño de la fuente */
+  color: #000000; /* Color de la fuente */
+}
+
+.seccion-experiencia .titulo-1::after {
+  content: "";
+  display: block;
+  width: 10%;
+  height: 2px;
+  background-color: rgb(0, 0, 0);
+  margin: 10px auto 0;
+}
